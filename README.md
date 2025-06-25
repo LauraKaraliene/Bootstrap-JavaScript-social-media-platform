@@ -1,4 +1,4 @@
-# css-frameworks-ca
+# JavaScript-ca
 
 **Note**: The following instructions are tailored for the `js2-laura-karaliene` branch of this project.
 
@@ -8,23 +8,23 @@ A fictional social media platform Vib`n! A cool place for cool people to vibe to
 
 ## Description
 
-After laying the groundwork with design and initial coding using HTML, CSS, JavaScript, the Bootstrap framework, and SASS, the project evolved to incorporate a more interactive and dynamic user experience in line with the assignment's objectives. Here's an overview of the added functionalities and the goals they aim to achieve:
+After building the design foundation with HTML, CSS, Bootstrap, and SASS, this project evolved to meet the JavaScript 2 assignment objectives by incorporating interactive functionality and API integration.
 
 ### Goal
-The primary goal was to leverage JavaScript to enrich the front-end functionality of a social media application, making it not only visually appealing but also responsive and user-friendly.
+The primary goal was to use JavaScript to create a responsive, interactive social media application that connects with the Noroff API for full CRUD (Create, Read, Update, Delete) functionality.
 
 ### API Integration
-The project utilizes the Noroff API, specifically the Social Endpoints, to interact with social media content. This integration required:
+Utilizing the official **Noroff API** (Social Endpoints), the application features:
 
-- Authentication with JWT tokens, necessitating user registration and login processes.
-- Utilizing GET, POST, PUT, and DELETE HTTP methods to enable full CRUD (Create, Read, Update, Delete) capabilities for social media content.
+- **Authentication with JWT tokens** – secure user login and registration  
+- **GET, POST, PUT, DELETE** requests – enabling full content management  
+- **LocalStorage** – for token storage and session persistence  
 
-### Required Features
-In accordance with the project brief, the following user stories were implemented to ensure a comprehensive and functional user interface:
-
-- **User Registration and Login**: Only users with @noroff.no or @stud.noroff.no email addresses can register and log in, ensuring a secure and exclusive environment.
-- **Content Interaction**: Users can view, filter, search, create, update, and delete post content, providing a rich social media experience.
-- **Persistence**: The use of localStorage for JWT token storage, among other things, enhances user experience by maintaining session states and preferences.
+### Features Implemented
+- **User Registration and Login** (restricted to @noroff.no and @stud.noroff.no emails)  
+- **Post Management** (view, search, create, update, delete content)  
+- **Session Persistence** with localStorage  
+- Responsive and interactive UI 
 
 ### Brief
 The project's aim was to create a new JavaScript front-end client for an existing social media platform. This entailed developing a user interface that is not only attractive and responsive but also capable of interacting with the provided API to manage social media content effectively.
@@ -34,6 +34,7 @@ The project's aim was to create a new JavaScript front-end client for an existin
 - [Visual Studio Code](https://code.visualstudio.com/) (HTML5, CSS, JavaScript)
 - [Bootstrap](https://getbootstrap.com/)
 - [SASS]
+- Noroff Social API
 
 ## Getting Started
 
