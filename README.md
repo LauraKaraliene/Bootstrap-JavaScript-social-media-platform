@@ -2,7 +2,7 @@
 
 **Note**: The following instructions are tailored for the `js2-laura-karaliene` branch of this project.
 
-![vibn-screenshot](https://github.com/LauraKaraliene/css-frameworks-ca/assets/98472609/4d9205c4-382d-4d60-affe-fa002f7c75cf)
+![Image](https://github.com/user-attachments/assets/994d0302-8e8d-487c-b802-5c23acd4ff2d)
 
 A fictional social media platform Vib`n! A cool place for cool people to vibe together.
 
